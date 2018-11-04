@@ -26,14 +26,15 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 300%;
+	font-size: 500%;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
+	margin: 0;
 }
 
 h2 {
 	text-align: center;
-	font-size: 170%;
+	font-size: 250%;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
 }
@@ -43,8 +44,25 @@ h3 {
 	margin-bottom: 20px;
 }
 
+h3#location {
+	margin-bottom: 50px;
+}
+
 #form {
+	font-size: 150%;
 	text-align: center;
+}
+
+button {
+	width: 200px;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 100%;
+	border: 2px solid white;
+}
+
+button:hover {
+	background-color: green;
 }
 
 #price {
