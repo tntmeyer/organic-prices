@@ -53,6 +53,10 @@ h3#location {
 	text-align: center;
 }
 
+select {
+	font-size: 100%;
+}
+
 button {
 	width: 200px;
 	padding: 5px;
