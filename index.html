@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+	<title>Organic Prices</title>
+</head>
+<body>
+	<div id="background">
+		<br>
+		<h1>Organic Prices</h1>
+		<h2>Latest Organic Prices</h2>
+		<div id="form">
+			<h3>Select Your Crop:</h3>
+			<select id="s1" name="crop" onchange="populate(this.id,'s2')">
+				<option value=""></option>
+				<option value="corn">Corn</option>
+				<option value="soybeans">Soybeans</option>
+				<option value="oats">Oats</option>
+			</select>
+			<br>
+			<h3>Choose a Location:</h3>
+			<select id="s2" name="location">	
+			</select>
+			<br>
+			<button onclick="getPrice()">Submit</button>
+		</div>
+		<p id="price">Price:</p>
+	</div>
+	<script type="text/javascript" src="scripts/select.js"></script>
+</body>
+</html>
