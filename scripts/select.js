@@ -23,4 +23,5 @@ function getPrice() {
 	var location = document.getElementById("s2").value;
 	var prices = {'corngmmn': '$8.75/bu', 'corngmin': '$8.75/bu', 'soybeanssunoptamn': '$16/bu', 'oatsgmia': '$2.50/bu'};
 	document.getElementById("price").innerHTML = 'Price: ' + prices[crop+location];
+	document.getElementById("price").style.visibility = "visible";
 };

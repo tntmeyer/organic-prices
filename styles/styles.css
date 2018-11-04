@@ -20,8 +20,7 @@ body {
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
-	
+	background-size: cover;	
 }
 
 h1 {
@@ -70,7 +69,8 @@ button:hover {
 }
 
 #price {
-	font-size: 200%;
+	font-size: 400%;
+	visibility: hidden;
 }
 
 p {
